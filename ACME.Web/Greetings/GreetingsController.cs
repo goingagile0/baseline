@@ -3,8 +3,8 @@
 namespace ACME.Web.Greetings
 {
     [Produces("application/json")]
-    [Route("api/Greeting")]
-    public class GreetingController : Controller
+    [Route("api/Greetings")]
+    public class GreetingsController : Controller
     {
         public string Get()
         {
